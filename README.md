@@ -1,2 +1,2 @@
-# NodeJs-Projects
-Simple NodeJs Projects for Practice
+# URL-shortener
+Application to get a shortURL from any given URL.
