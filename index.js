@@ -9,6 +9,6 @@ connectMongoDB('mongodb://127.0.0.1:27017/short-url');
 
 app.use(express.json());
 
-app.use('/', urlRouter);
+app.use('/url', urlRouter);
 
 app.listen(PORT, () => console.log(`Server Started at PORT: ${PORT}`));
